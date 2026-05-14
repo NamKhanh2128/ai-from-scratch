@@ -1,0 +1,38 @@
+# Model checkpoints (quá nặng, có thể tạo lại)
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Môi trường
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Hệ thống
+.DS_Store
+Thumbs.db
+
+# Dữ liệu lớn
+*.tar.gz
+*.zip
+data/raw/
