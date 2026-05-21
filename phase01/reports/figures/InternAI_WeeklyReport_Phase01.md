@@ -86,7 +86,7 @@ Các việc đã làm trong tuần:
 
 Link liên quan:
 
-* Code/PR: [link]
+* Code/PR: https://github.com/NamKhanh2128/ai-from-scratch/tree/phase01
 * Demo: `phase1_ml/reports/phase1_report.md`
 * Notebook/report: `phase1_ml/reports/phase1_report.md`
 * Dataset/config: Breast Cancer Wisconsin (scikit-learn), `configs/*.yaml`
