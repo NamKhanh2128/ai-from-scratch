@@ -1,0 +1,12 @@
+name: decision_tree_baseline
+model: DecisionTreeClassifier
+use_scaler: false
+test_size: 0.2
+val_size: 0.15
+random_state: 42
+stratify: true
+param_grid:
+  - {max_depth: 3, random_state: 42}
+  - {max_depth: 5, random_state: 42}
+  - {max_depth: null, random_state: 42}
+output_model: phase1_ml/outputs/tree_model.pkl

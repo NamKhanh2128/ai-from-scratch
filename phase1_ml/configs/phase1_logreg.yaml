@@ -1,0 +1,12 @@
+name: logreg_baseline
+model: LogisticRegression
+use_scaler: true
+test_size: 0.2
+val_size: 0.15
+random_state: 42
+stratify: true
+param_grid:
+  - {C: 0.1, max_iter: 2000, random_state: 42}
+  - {C: 1.0, max_iter: 2000, random_state: 42}
+  - {C: 10.0, max_iter: 2000, random_state: 42}
+output_model: phase1_ml/outputs/logreg_model.pkl
