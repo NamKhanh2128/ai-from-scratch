@@ -1,0 +1,47 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── Model & Dataset lớn ──
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.pkl
+*.csv
+*.json
+*.parquet
+*.tar.gz
+*.zip
+*.onnx
+
+# ── Môi trường ──
+.env
+*.env
+
+# ── IDE ──
+.vscode/
+.idea/
+
+# ── Hệ thống ──
+.DS_Store
+Thumbs.db
+
+# ── Output & logs ──
+phase1_ml/outputs/
+ai-engineering-from-scratch/
+
+# ── File tạm ──
+test.md
